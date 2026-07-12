@@ -26,8 +26,16 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 14
+      # sharp@0.23 (a Gatsby v2 dep) has no Node 14 prebuilt, so it compiles via
+      # node-gyp, whose bundled gyp uses the 'rU' file mode removed in Python
+      # 3.11+. Pin Python 3.10 and point node-gyp at it.
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.10"
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+        env:
+          PYTHON: python3.10
       - name: Build (with path prefix for project site)
         run: npx gatsby build --prefix-paths
         env:
