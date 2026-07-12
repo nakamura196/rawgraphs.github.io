@@ -40,62 +40,62 @@ const images = [bg1, bg2, bg3]
 
 const steps = [
   {
-    title: "First, insert your data into RAWGraphs",
+    title: "まずはRAWGraphsにデータを取り込みましょう",
     image: step1,
     subSteps: [
       {
-        title: "As simple as a copy-paste.",
+        title: "コピー＆ペーストするだけ。",
         icon: <FaPaste className={styles.substepIcon} />,
         text:
-          "RAWGraphs works with delimiter-separated values (i.e. csv and tsv files) as well as with copied-and-pasted texts from other applications (e.g. Microsoft Excel, Google Spreadsheets, TextEdit, …). It also works with CORS-enabled endpoints (APIs).",
+          "RAWGraphsは区切り文字で区切られた値（csvやtsvファイルなど）に対応しているほか、他のアプリケーション（Microsoft Excel、Google スプレッドシート、テキストエディットなど）からコピー＆ペーストしたテキストも扱えます。さらにCORSに対応したエンドポイント（API）からの読み込みもできます。",
       },
       {
-        title: "No worries, your data is safe.",
+        title: "ご安心を、データは安全です。",
         icon: <FaLock className={styles.substepIcon} />,
         text:
-          "Even though RAWGraphs is a web app, the data you insert will be processed only by the web browser. No server-side operations or storages are performed, no one will see, touch or copy your data!",
+          "RAWGraphsはWebアプリですが、入力したデータはWebブラウザ内でのみ処理されます。サーバー側での処理や保存は一切行われず、あなたのデータを誰かが見たり、触れたり、コピーしたりすることはありません！",
       },
     ],
   },
   {
-    title: "Choose within a wide range of visual models",
+    title: "豊富なビジュアルモデルの中から選びましょう",
     image: step2,
     subSteps: [
       {
-        title: "Conventional and unconventional layouts.",
+        title: "定番のレイアウトも、ひと味違うレイアウトも。",
         icon: <FaChartBar className={styles.substepIcon} />,
         text:
-          'We designed and developed RAWGraphs with designers and vis geeks in mind. That’s why we focused on providing charts that are not easy to produce with other tools. But don’t worry, you can also find bar charts and pies! Something missing? See how easy is to <a href="https://github.com/densitydesign/raw/wiki/Adding-New-Charts" target="_blank" rel="noopener noreferrer">build your own model</a>.',
+          'RAWGraphsは、デザイナーやビジュアライゼーション好きの方々を念頭に設計・開発されました。だからこそ、他のツールでは作りにくいチャートの提供に力を入れています。もちろん、棒グラフや円グラフも用意しているのでご安心ください！お探しのものが見つかりませんか？ <a href="https://github.com/densitydesign/raw/wiki/Adding-New-Charts" target="_blank" rel="noopener noreferrer">自分だけのモデルを作る</a>のがいかに簡単かをご覧ください。',
       },
     ],
   },
   {
-    title: "Tune your chart and explore your data",
+    title: "チャートを調整してデータを探索しましょう",
     image: step3,
     subSteps: [
       {
-        title: "Understand and map visually your data dimensions.",
+        title: "データの各次元を理解し、視覚的にマッピング。",
         icon: <FaRegHandPointUp className={styles.substepIcon} />,
         text:
-          "Do you want to know more about your data? Do you want to explore patterns and trends? Just map the dimensions of your dataset with the visual variables of the selected layout.",
+          "データについてもっと知りたいですか？パターンや傾向を探りたいですか？選んだレイアウトのビジュアル変数に、データセットの各次元をマッピングするだけです。",
       },
       {
-        title: " Visual feedback, immediately.",
+        title: " 視覚的なフィードバックを、すぐに。",
         icon: <FaRegEye className={styles.substepIcon} />,
         text:
-          "As soon as the dataset dimensions are mapped you’ll see the visualization appear. Not happy with the result? Try another type of mapping to have a new visualization in the blink of an eye.",
+          "データセットの各次元をマッピングすると、すぐにビジュアライゼーションが表示されます。結果に満足できませんか？別のマッピングを試せば、あっという間に新しいビジュアライゼーションが得られます。",
       },
     ],
   },
   {
-    title: "Export and go anywhere",
+    title: "エクスポートして、どこへでも",
     image: step4,
     subSteps: [
       {
-        title: " Semifinished vectors and data structures.",
+        title: " 半完成のベクターデータとデータ構造。",
         icon: <FaPencilAlt className={styles.substepIcon} />,
         text:
-          "RAWGraphs allows you to export visualizations as vector (SVG) or raster (PNG) images and embed them into your web page. Since RAWGraphs produces semifinished visualizations, you can even open them in your favorite vector graphics editor and improve them.",
+          "RAWGraphsではビジュアライゼーションをベクター画像（SVG）またはラスター画像（PNG）としてエクスポートし、Webページに埋め込むことができます。RAWGraphsは半完成のビジュアライゼーションを生成するので、お気に入りのベクターグラフィックスエディターで開いてさらに磨き上げることも可能です。",
       },
     ],
   },
@@ -103,33 +103,33 @@ const steps = [
 
 const discoverMoreWidgets = [
   {
-    title: "RAW Graphs is open",
+    title: "RAW Graphsはオープンです",
     description:
-      "RAW Graphs is built on top of the amazing d3.js library by Mike Bostock. RAW.js is released under Apache 2 licence and it’s open to the community for improvements or for your own projects.",
+      "RAW Graphsは、Mike Bostock氏による素晴らしいライブラリd3.jsの上に構築されています。RAW.jsはApache 2ライセンスの下で公開されており、改善やあなた自身のプロジェクトのためにコミュニティに開かれています。",
     link: "https://github.com/densitydesign/raw/",
-    linkLabel: "Check our repository on GitHub",
+    linkLabel: "GitHubのリポジトリを見る",
   },
   {
-    title: "RAW Graphs is scalable",
+    title: "RAW Graphsは拡張できます",
     description:
-      "Not satisfied with the layouts? Check how to easily add new charts with a basic knowledge of D3.js.",
+      "レイアウトに満足できませんか？D3.jsの基本的な知識で、簡単に新しいチャートを追加する方法をご覧ください。",
     link: "https://github.com/densitydesign/raw/wiki/Adding-New-Charts",
-    linkLabel: "Adding new charts",
+    linkLabel: "新しいチャートを追加する",
   },
 ]
 
 const askInfos = [
   {
     question:
-      "Do you want to contribute to the project? Any general question or feedback?",
-    button: "contact us",
+      "プロジェクトに貢献したいですか？ご質問やご意見はありませんか？",
+    button: "お問い合わせ",
     link: "mailto:hello@rawgraphs.io",
   },
 ]
 
 const HomePage = () => (
   <Layout headerBg={"transparent"} useIt={false}>
-    <SEO title="Home" />
+    <SEO title="ホーム" />
     <div
       className="container-fluid d-flex align-items-center justify-content-around flex-column"
       style={{
@@ -147,7 +147,7 @@ const HomePage = () => (
         </div>
         <div className="col-12 text-center">
           <h2 className={styles.claim}>
-            The missing link between spreadsheets and data visualization.
+            スプレッドシートとデータビジュアライゼーションをつなぐ、失われた環。
           </h2>
         </div>
         <div className="col-10 offset-1 col-sm-4 offset-sm-2 col-md-3 offset-md-3 col-lg-2 offset-lg-4">
@@ -160,7 +160,7 @@ const HomePage = () => (
               className="btn btn-default btn-green btn-larger"
               type="submit"
             >
-              Use it now!
+              今すぐ使う！
             </button>
           </a>
         </div>
@@ -174,7 +174,7 @@ const HomePage = () => (
               className="btn btn-default btn-grey btn-larger"
               type="submit"
             >
-              Fork it on github!
+              GitHubでフォークする！
             </button>
           </a>
         </div>
@@ -195,7 +195,7 @@ const HomePage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h2>Discover more</h2>
+            <h2>もっと知る</h2>
           </div>
           {discoverMoreWidgets.map((widget, index) => {
             return (
@@ -210,7 +210,7 @@ const HomePage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h2>Brought to you by</h2>
+            <h2>制作</h2>
           </div>
         </div>
         <div className="row mt-5 justify-content-center">

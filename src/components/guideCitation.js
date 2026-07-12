@@ -13,7 +13,7 @@ class GuideCitation extends React.PureComponent {
     const { copied } = this.state
     const date = timeFormat("%B %d, %Y")(Date.now())
 
-    const text = `"${title}", by RAWGraphs Team. Licensed under CC BY-NC-SA 4.0.  Accessed: ${date}, from ${url}`
+    const text = `「${title}」 RAWGraphs チーム著。CC BY-NC-SA 4.0 のもとでライセンスされています。 アクセス日: ${date}、出典: ${url}`
     return (
       <div>
         <p className={`${copied ? styles.copied : ""}`}>{text}</p>
@@ -23,7 +23,7 @@ class GuideCitation extends React.PureComponent {
         >
           <p className={styles.copyPaste}>
             <FaPaste></FaPaste>
-            <span className="ml-2">Copy to clipboard</span>
+            <span className="ml-2">クリップボードにコピー</span>
           </p>
         </CopyToClipboard>
       </div>

@@ -104,7 +104,7 @@ export default function SponsorsGrid({showBronze=true}){
 
   return <div className="text-center">
 
-    <h1>Special sponsors</h1>
+    <h1>特別スポンサー</h1>
     <div className="row">
       {specialSponsors.map((sponsor, i) => <div className="col-sm-3 text-center" key={i}>
         <a href={sponsor.link} className={styles.link} target="_blank" rel="noopener noreferrer">
@@ -114,7 +114,7 @@ export default function SponsorsGrid({showBronze=true}){
 
     </div>
 
-    <h1>Gold sponsors</h1>
+    <h1>ゴールドスポンサー</h1>
     {/*
       The introduction of the FARADAYSEC sponsorship caused the gold sponsor grid to look bad (a single sponsor on the last row).
       
@@ -133,7 +133,7 @@ export default function SponsorsGrid({showBronze=true}){
 
     </div>
 
-    {showBronze && <><h1>Bronze sponsors</h1>
+    {showBronze && <><h1>ブロンズスポンサー</h1>
     <div className="row">
 
       {bronzeSponsors.map((sponsor, i) => <div className="col-sm-4 text-center">

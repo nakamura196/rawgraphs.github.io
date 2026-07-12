@@ -43,7 +43,7 @@ const BlogBlockBig = ({ node }) => {
               )}
               <hr />
               <p className="small mb-0">
-                {node.frontmatter.date}, by {node.frontmatter.author}
+                {node.frontmatter.date}、著者：{node.frontmatter.author}
               </p>
             </div>
           </div>
@@ -83,7 +83,7 @@ const BlogBlockMedium = ({ node }) => {
               )}
               <hr />
               <p className="small mb-0">
-                {node.frontmatter.date}, by {node.frontmatter.author}
+                {node.frontmatter.date}、著者：{node.frontmatter.author}
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ const BlogBlockNormal = ({ node }) => {
               )}
               <hr />
               <p className="small mb-0">
-                {node.frontmatter.date}, by {node.frontmatter.author}
+                {node.frontmatter.date}、著者：{node.frontmatter.author}
               </p>
             </div>
           </div>

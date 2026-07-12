@@ -11,15 +11,15 @@ import styles from "./about.module.scss"
 
 const PrivacyPage = () => (
   <Layout>
-    <SEO title="Privacy" />
+    <SEO title="プライバシーポリシー" />
 
     <div className="container">
       <div className="row main-header">
         <div className="col-12 col-sm-8">
           <div>
-            <h1 className="big">Privacy</h1>
+            <h1 className="big">プライバシーポリシー</h1>
             <h2 className="light">
-              <p>What we do with your browsing data</p>
+              <p>あなたの閲覧データの取り扱いについて</p>
             </h2>
           </div>
         </div>
@@ -29,140 +29,138 @@ const PrivacyPage = () => (
       <div className="container">
         <div className="row">
           <div className="ol-12 col-sm-8">
-            <h2>In short</h2>
+            <h2>概要</h2>
             <p>
-                This website uses Google Analytics to anonymously collect data about 
-                visitors, sessions, and site usage. It helps us to understand how 
-                the tool is used, and how to improve it.<br/>None of this data will be sold 
-                to third-party ad servers.
+                本ウェブサイトでは、訪問者・セッション・サイトの利用状況に関するデータを
+                匿名で収集するために Google Analytics を使用しています。これは、ツールが
+                どのように利用されているかを把握し、改善につなげるためのものです。<br/>これらのデータが
+                第三者の広告サーバーに販売されることはありません。
             </p>
             <p>
-                This website also uses common third-party services (e.g. Youtube), 
-                which may have different policies about the processing of personal informations. 
-                We strongly suggest you to install an ad-blocker software in order to have control 
-                over the enabled services.
+                本ウェブサイトでは、一般的なサードパーティサービス（例：YouTube）も
+                利用しており、これらは個人情報の取り扱いについて異なるポリシーを持つ場合があります。
+                有効化されるサービスを自分で管理できるよう、広告ブロックソフトウェアの導入を
+                強くおすすめします。
             </p>
           </div>
           <div className="ol-12 col-sm-8">
-            <h2>Privacy Policy for RAWGraphs</h2>
+            <h2>RAWGraphs のプライバシーポリシー</h2>
             <p>
-                At RAWGraphs, accessible from rawgraphs.io, one of our main priorities 
-                is the privacy of our visitors. This Privacy Policy statement describes the types 
-                of information that is collected and recorded by RAWGraphs and how it is used. 
-                If you have additional questions or require more information about our Privacy Policy, 
-                do not hesitate to contact us.
+                rawgraphs.io からアクセスできる RAWGraphs において、私たちの主要な優先事項の
+                ひとつは訪問者のプライバシーです。本プライバシーポリシーでは、RAWGraphs が
+                収集・記録する情報の種類と、その利用方法について説明します。
+                本プライバシーポリシーについてさらにご質問がある場合や詳しい情報が必要な場合は、
+                お気軽にお問い合わせください。
             </p>
             <p>
-                This Privacy Policy applies only to our online activities and is valid for visitors 
-                to our website with regards to the information that they shared and/or collect in RAWGraphs. 
-                This policy is not applicable to any information collected offline or via channels 
-                other than this website.
+                本プライバシーポリシーは、私たちのオンライン上の活動にのみ適用され、RAWGraphs で
+                共有および収集された情報に関して本ウェブサイトの訪問者に対して有効です。
+                本ポリシーは、オフラインで、または本ウェブサイト以外の手段を通じて収集された
+                いかなる情報にも適用されません。
             </p>
-            <h3>Consent</h3>
+            <h3>同意</h3>
             <p>
-                By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+                本ウェブサイトを利用することにより、あなたは本プライバシーポリシーに同意し、その条項に従うことに合意したものとみなされます。
             </p>
-            <h3>Information we collect</h3>
+            <h3>収集する情報</h3>
             <p>
-              The only information we collect is gathered through Google Analytics cookies. For more general 
-              information on cookies, please read{" "}
+              私たちが収集する情報は、Google Analytics のクッキーを通じて収集されるもののみです。クッキーに関する
+              より一般的な情報については、{" "}
                   <a
                       href="https://www.google.com/url?q=https://www.cookiesandyou.com/&sa=D&ust=1587379913515000&usg=AFQjCNGAbtb_TCLntYgo2kIKvObLqHOznQ"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
-                      "What Are Cookies?"
+                      「クッキーとは？」
                   </a>
-              . <br/>
-              None of these cookies are essential for the usage of rawgraphs.io. You can disable them without 
-              having any issue in the usage of the tool.
+              をお読みください。<br/>
+              これらのクッキーは、rawgraphs.io の利用に必須のものではありません。無効にしても、
+              ツールの利用に何ら支障はありません。
             </p>
             <p>
-              These cookies are used to:
-            </p>
-            <p>
-              <ul>
-                <li>
-                  Calculate visitor, session, and keep track of RAWgraphs usage for the site's analytics report. 
-                  The cookies store information anonymously and assign a randomly generated number to identify 
-                  unique visitors.
-                </li>
-                <li>
-                  Store information on how visitors use RAWgraphs and helps in creating an analytics report of 
-                  how the website is doing. The data collected including the number visitors, the source where 
-                  they have come from, and the pages visited in an anonymous form.
-                </li>
-              </ul>
-              User and event data will be retained for 24 months.
-            </p>
-            <h3>Log Files</h3>
-            <p>
-              RAWGraphs follows a standard procedure of using log files. These files log visitors when they visit 
-              websites. All hosting companies do this and also a part of hosting services' analytics. The information 
-              collected by log files include internet protocol (IP) addresses, browser type, Internet Service 
-              Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. 
-              These are not linked to any information that is personally identifiable. The purpose of the 
-              information is for analyzing trends, administering the site, tracking users' movement on 
-              the website, and gathering demographic information.
-            </p>
-            <h3>Advertising Partners Privacy Policies</h3>
-            <p>
-              The data collected through cookies is only for internal use and it won’t be shared 
-              with any third-party ad servers.
-            </p>
-            <h3>Third Party Privacy Policies</h3>
-            <p>
-              In this website, Third Party Services are used (e.g. videos embedded from Youtube).
-            </p>
-            <p>
-              RAWGraphs's Privacy Policy does not apply to other advertisers or websites. Thus, we are 
-              advising you to consult the respective Privacy Policies of these third-party ad servers 
-              for more detailed information. It may include their practices and instructions about how 
-              to opt-out of certain options. You may find a complete list of these Privacy Policies and 
-              their links here: Privacy Policy Links.
-            </p>
-            <p>
-              You can choose to disable cookies through your individual browser options. Detailed information 
-              about cookie management with specific web browsers, can be found at the browsers respective websites.
-            </p>
-            <h3>GDPR Data Protection Rights</h3>
-            <p>
-              We would like to make sure you are fully aware of all of your data protection rights. 
-              Every user is entitled to the following:
+              これらのクッキーは、以下の目的で使用されます：
             </p>
             <p>
               <ul>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to access</span> – You have the right to request 
-                  copies of your personal data. We may charge you a small fee for this service.
+                  サイトのアナリティクスレポートのために、訪問者数・セッション数を算出し、RAWGraphs の利用状況を記録します。
+                  クッキーは情報を匿名で保存し、ユニークな訪問者を識別するためにランダムに生成された番号を割り当てます。
                 </li>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to rectification</span> – You have the right to 
-                  request that we correct any information you believe is inaccurate. You also have the right 
-                  to request that we complete the information you believe is incomplete.
+                  訪問者が RAWGraphs をどのように利用しているかについての情報を保存し、ウェブサイトの状況に関する
+                  アナリティクスレポートの作成に役立てます。収集されるデータには、訪問者数、訪問元、
+                  閲覧されたページが含まれ、いずれも匿名の形式です。
+                </li>
+              </ul>
+              ユーザーおよびイベントのデータは 24 か月間保持されます。
+            </p>
+            <h3>ログファイル</h3>
+            <p>
+              RAWGraphs は、ログファイルを使用するという標準的な手順に従っています。これらのファイルは、訪問者が
+              ウェブサイトを訪れた際に記録を残します。すべてのホスティング会社がこれを行っており、ホスティングサービスの
+              アナリティクスの一部でもあります。ログファイルによって収集される情報には、インターネットプロトコル（IP）
+              アドレス、ブラウザの種類、インターネットサービスプロバイダ（ISP）、日時のタイムスタンプ、参照元／離脱ページ、
+              場合によってはクリック数が含まれます。これらは、個人を特定できるいかなる情報とも紐付けられていません。
+              これらの情報の目的は、傾向の分析、サイトの管理、ウェブサイト上でのユーザーの動きの追跡、および
+              人口統計情報の収集です。
+            </p>
+            <h3>広告パートナーのプライバシーポリシー</h3>
+            <p>
+              クッキーを通じて収集されたデータは内部利用のみを目的としており、いかなる第三者の広告サーバーとも
+              共有されることはありません。
+            </p>
+            <h3>サードパーティのプライバシーポリシー</h3>
+            <p>
+              本ウェブサイトでは、サードパーティサービス（例：YouTube から埋め込まれた動画）が利用されています。
+            </p>
+            <p>
+              RAWGraphs のプライバシーポリシーは、他の広告主やウェブサイトには適用されません。したがって、
+              より詳細な情報については、これらのサードパーティ広告サーバーそれぞれのプライバシーポリシーを
+              ご確認いただくことをおすすめします。そこには、各サービスの取り扱いや、特定のオプションを
+              オプトアウトする方法についての説明が含まれている場合があります。これらのプライバシーポリシーとその
+              リンクの一覧は、こちらでご確認いただけます：Privacy Policy Links。
+            </p>
+            <p>
+              クッキーは、ご自身のブラウザの設定から無効にすることができます。特定のウェブブラウザでのクッキー管理に関する
+              詳細な情報は、各ブラウザのウェブサイトでご確認いただけます。
+            </p>
+            <h3>GDPR に基づくデータ保護の権利</h3>
+            <p>
+              私たちは、あなたがご自身のデータ保護に関するすべての権利を十分に理解されていることを確認したいと考えています。
+              すべてのユーザーには、以下の権利があります：
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <span style={{fontWeight:'bold'}}>アクセスの権利</span> – あなたには、ご自身の
+                  個人データの写しを請求する権利があります。このサービスについては、少額の手数料を申し受ける場合があります。
                 </li>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to erasure</span> – You have the right to request 
-                  that we erase your personal data, under certain conditions.
+                  <span style={{fontWeight:'bold'}}>訂正の権利</span> – あなたには、不正確であると考える
+                  情報の訂正を私たちに請求する権利があります。また、不完全であると考える情報を補完するよう
+                  請求する権利もあります。
                 </li>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to restrict processing</span> – You have the right 
-                  to request that we restrict the processing of your personal data, under certain conditions.
+                  <span style={{fontWeight:'bold'}}>消去の権利</span> – あなたには、一定の条件のもとで、
+                  私たちがご自身の個人データを消去するよう請求する権利があります。
                 </li>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to object to processing</span> – You have the right 
-                  to object to our processing of your personal data, under certain conditions.
+                  <span style={{fontWeight:'bold'}}>処理の制限の権利</span> – あなたには、一定の条件のもとで、
+                  私たちがご自身の個人データの処理を制限するよう請求する権利があります。
                 </li>
                 <li>
-                  <span style={{fontWeight:'bold'}}>The right to data portability</span> – You have the right to 
-                  request that we transfer the data that we have collected to another organization, 
-                  or directly to you, under certain conditions.
+                  <span style={{fontWeight:'bold'}}>処理に異議を唱える権利</span> – あなたには、一定の条件のもとで、
+                  私たちによるご自身の個人データの処理に異議を唱える権利があります。
+                </li>
+                <li>
+                  <span style={{fontWeight:'bold'}}>データポータビリティの権利</span> – あなたには、一定の条件のもとで、
+                  私たちが収集したデータを別の組織へ、または直接あなたへ移転するよう請求する権利があります。
                 </li>
               </ul>
             </p>
             <p>
-              If you make a request, we have one month to respond to you.<br/>If you would like to 
-              exercise any of these rights, please contact us.
+              請求をいただいた場合、私たちは 1 か月以内に対応いたします。<br/>これらの権利のいずれかを
+              行使されたい場合は、お問い合わせください。
             </p>
 
 
@@ -171,8 +169,8 @@ const PrivacyPage = () => (
       </div>
     </div>
     <AskInfo
-      question="Do you want to sponsor or support the project?"
-      button="Support us on Indiegogo"
+      question="プロジェクトのスポンサーや支援をお考えですか？"
+      button="Indiegogo で支援する"
       link="https://www.indiegogo.com/projects/rawgraphs-2-0-a-web-app-for-data-visualization#/"
     ></AskInfo>
   </Layout>

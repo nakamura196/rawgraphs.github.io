@@ -15,7 +15,7 @@ const partners = [
   {
     name: "DensityDesign",
     description:
-      "DensityDesign is a Research Lab in the Design Department of Politecnico di Milano. It focuses on the visual representation of complex social, organizational and urban phenomena to support decision making processes at any level. Our interfaces are open, inclusive, and preserve multiple interpretations of complex phenomena. DensityDesign is committed to collaborating with other researchers and organizations devoted to academic independence and rigor, open enquiry, and risk taking to enhance our understanding of the world.",
+      "DensityDesign は、ミラノ工科大学（Politecnico di Milano）デザイン学科の研究ラボです。複雑な社会的・組織的・都市的な現象を視覚的に表現し、あらゆるレベルでの意思決定プロセスを支援することに注力しています。私たちのインターフェースはオープンかつインクルーシブで、複雑な現象に対する複数の解釈を保持します。DensityDesign は、世界への理解を深めるため、学問的独立性と厳密さ、開かれた探究、そしてリスクを取ることに献身する他の研究者や組織との協働に取り組んでいます。",
     link: "https://www.densitydesign.org/",
     linkLabel: "densitydesign.org",
     logo: logoDD,
@@ -23,7 +23,7 @@ const partners = [
   {
     name: "Calibro",
     description:
-      "Calibro is a multidisciplinary design studio established by Matteo Azzi and Giorgio Uboldi in 2015 in Milan. We are interested in exploring new pathways at the intersection between design, data visualization and humanities. Our background is in communication design and for several years we worked at DensityDesign Research Lab at Politecnico di Milano where we have been part of the team who created RAW. In the past few years we have been involved in research, consulting and teaching activities for several public and private institutions.",
+      "Calibro は、Matteo Azzi と Giorgio Uboldi によって2015年にミラノで設立された学際的なデザインスタジオです。私たちは、デザイン、データビジュアライゼーション、人文学の交差点に新たな道を探ることに関心を持っています。バックグラウンドはコミュニケーションデザインで、数年間ミラノ工科大学の DensityDesign 研究ラボに在籍し、RAW を生み出したチームの一員でした。近年は、いくつかの公共機関および民間機関のために、研究・コンサルティング・教育活動に携わってきました。",
     link: "https://calib.ro/",
     linkLabel: "calib.ro",
     logo: logoCalibro,
@@ -31,7 +31,7 @@ const partners = [
     {
     name: "Inmagik",
     description:
-      "Inmagik is a studio based in Bergamo (Italy), focused on the development of web applications, mobile apps, data management systems and interactive user experiences. We love open source components, languages and frameworks and have a lot of experience in the field of data visualization.",
+      "Inmagik は、イタリアのベルガモを拠点とするスタジオで、ウェブアプリケーション、モバイルアプリ、データ管理システム、インタラクティブなユーザー体験の開発に注力しています。私たちはオープンソースのコンポーネント・言語・フレームワークを愛用しており、データビジュアライゼーションの分野で豊富な経験を持っています。",
     link: "https://inmagik.com/en/",
     linkLabel: "inmagik.com",
     logo: logoInmagik,
@@ -39,15 +39,15 @@ const partners = [
 ]
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="概要" />
 
     <div className="container">
       <div className="row main-header">
         <div className="col-12 col-sm-8">
           <div>
-            <h1 className="big">About</h1>
+            <h1 className="big">概要</h1>
             <h2 className="light">
-              <p>Everything you need to know about the project.</p>
+              <p>このプロジェクトについて知っておくべきことのすべて。</p>
             </h2>
           </div>
         </div>
@@ -57,21 +57,18 @@ const AboutPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h2>What is RAW Graphs?</h2>
+            <h2>RAW Graphs とは？</h2>
             <p>
-              RAW Graphs is an open source data visualization framework built
-              with the goal of making the visual representation of complex data
-              easy for everyone.
+              RAW Graphs は、複雑なデータの視覚的表現を誰にとっても簡単にすることを目標に構築された、オープンソースのデータビジュアライゼーション・フレームワークです。
             </p>
             <p>
-              Primarily conceived as a tool for designers and vis geeks, RAW
-              Graphs&nbsp;aims at providing a missing link between spreadsheet
-              applications (e.g. Microsoft Excel, Apple Numbers, OpenRefine) and
-              vector graphics editors (e.g. Adobe Illustrator, Inkscape,
-              Sketch).
+              RAW
+              Graphs&nbsp;は、主にデザイナーやビジュアライゼーション愛好家のためのツールとして考案され、スプレッドシートアプリケーション（Microsoft
+              Excel、Apple Numbers、OpenRefine など）とベクターグラフィックスエディタ（Adobe
+              Illustrator、Inkscape、Sketch など）の間に欠けていた橋渡しを提供することを目指しています。
             </p>
             <p>
-              The project, led and maintained by the{" "}
+              このプロジェクトは{" "}
               <a
                 href="http://www.densitydesign.org/"
                 target="_blank"
@@ -79,12 +76,10 @@ const AboutPage = () => (
               >
                 DensityDesign Research Lab
               </a>{" "}
-              (Politecnico di Milano) was&nbsp;released publicly in 2013 and
-              is&nbsp;regarded by many as one of the most important tools in the
-              field of data visualization.
+              （ミラノ工科大学）によって主導・維持されており、2013年に一般公開されて以来、データビジュアライゼーションの分野で最も重要なツールの一つとして多くの人に認められています。
             </p>
             <p>
-              The team responsable for the design, development and mantainance of the project is composed by
+              このプロジェクトのデザイン・開発・保守を担うチームは、
               {" "}<a
                 href="http://www.densitydesign.org/"
                 target="_blank"
@@ -92,15 +87,15 @@ const AboutPage = () => (
               >
                 DensityDesign
               </a>{" "}
-              ,{" "}
+              、{" "}
               <a
                 href="http://calib.ro/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Calibro
-              </a>{" "}
-              and
+              </a>
+              、そして
               {" "}
               <a
                 href="https://inmagik.com/en/"
@@ -108,14 +103,13 @@ const AboutPage = () => (
                 rel="noopener noreferrer"
               >
                 Inmagik
-              </a>{" "} , who joined the team in 2019.
+              </a>{" "}（2019年にチームに加わりました）で構成されています。
               </p>
-            <h1 id="how-to-cite">How to cite RAWGraphs?</h1>
+            <h1 id="how-to-cite">RAWGraphs の引用方法</h1>
             <p>
-              If you have found RAWGraphs useful in your research, or if you
-              want to reference it in your work, please consider to cite the
-              paper we presented at CHItaly 2017. You can read the article in
-              Green Open Access at the following link:
+              研究の中で RAWGraphs
+              が役立った場合、あるいはご自身の作品の中で参照したい場合は、私たちが CHItaly 2017
+              で発表した論文を引用いただけますと幸いです。以下のリンクから、グリーン・オープンアクセスで記事をお読みいただけます。
             </p>
             <p>
               <FaFilePdf></FaFilePdf>
@@ -124,11 +118,11 @@ const AboutPage = () => (
                 href="https://dl.acm.org/authorize?N46728"
                 className="ml-2"
               >
-                RAWGraphs: A Visualisation Platform to Create Open Outputs – PDF
-                file in Green Open Access
+                RAWGraphs: A Visualisation Platform to Create Open Outputs –
+                グリーン・オープンアクセスの PDF ファイル
               </a>
             </p>
-            <p>Cite RAWGraphs:</p>
+            <p>RAWGraphs を引用する：</p>
             <p>
               Mauri, M., Elli, T., Caviglia, G., Uboldi, G., &amp; Azzi, M.
               (2017). RAWGraphs: A Visualisation Platform to Create Open
@@ -142,7 +136,7 @@ const AboutPage = () => (
                 https://doi.org/10.1145/3125571.3125585
               </a>
             </p>
-            <p>Bibtex:</p>
+            <p>Bibtex：</p>
             <pre>
               {`
 @inproceedings{Mauri:2017:RVP:3125571.3125585,
@@ -170,20 +164,20 @@ const AboutPage = () => (
             <div className="row">
               <div className="col-12">
                 <div className={styles.factsheet}>
-                  <p>Designed and developed with love from Milan, Italy.</p>
+                  <p>イタリア・ミラノより、愛を込めてデザイン・開発されています。</p>
                   <p>
-                    Released under{" "}
+                    {" "}
                     <a
                       href="https://github.com/densitydesign/raw#license"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Apache 2 license
+                      Apache 2 ライセンス
                     </a>
-                    .
+                    のもとで公開されています。
                   </p>
                   <p>
-                    First git commit on July 10, 2013 by{" "}
+                    最初の git コミットは2013年7月10日、{" "}
                     <a
                       href="http://www.giorgiocaviglia.com"
                       target="_blank"
@@ -191,13 +185,13 @@ const AboutPage = () => (
                     >
                       Giorgio Caviglia
                     </a>
+                    によるものです。
                   </p>
                   <p>
-                    More than 500k sessions in 3 years from all around the
-                    world.
+                    3年間で世界中から50万を超えるセッションを記録しました。
                   </p>
                   <p>
-                    “Most beautiful” project and “Gold medal” for tools at the{" "}
+                    {" "}
                     <a
                       href="http://www.informationisbeautifulawards.com/news/49-2014-the-winners"
                       target="_blank"
@@ -205,20 +199,20 @@ const AboutPage = () => (
                     >
                       Kantar information is beautiful awards 2014
                     </a>
-                    .
+                    にて、「最も美しい」プロジェクトおよびツール部門「金メダル」を受賞しました。
                   </p>
                 </div>
               </div>
               <div className="col-12">
-                <h2>Contacts</h2>
+                <h2>お問い合わせ</h2>
                 <p>
-                  Do you have questions about RAW Graphs?
+                  RAW Graphs について質問がありますか？
                   <br />
-                  Interested into collaborations?
+                  コラボレーションにご興味はありますか？
                 </p>
                 <a href="mailto:hello@rawgraphs.io">
                   <button className="btn btn-grey" type="submit">
-                    Contact us
+                    お問い合わせ
                   </button>
                 </a>
                 <a
@@ -248,7 +242,7 @@ const AboutPage = () => (
     </div>
     <div className="container-fluid grey-bg">
       <div className="container">
-        <h2>Partners</h2>
+        <h2>パートナー</h2>
         <div className="row">
           {partners.map(partner => (
             <Partner key={partner.name} {...partner}></Partner>
@@ -257,8 +251,8 @@ const AboutPage = () => (
       </div>
     </div>
     <AskInfo
-      question="Do you want to sponsor or support the project?"
-      button="contact us"
+      question="このプロジェクトのスポンサーや支援をご希望ですか？"
+      button="お問い合わせ"
       link="mailto:hello@rawgraphs.io"
     ></AskInfo>
   </Layout>

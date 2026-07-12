@@ -32,7 +32,7 @@ class Header extends React.Component {
                 to="/about"
                 partiallyActive={true}
               >
-                About
+                概要
               </Link>
               <Link
                 className={`nav-item nav-link ${styles.item}`}
@@ -40,7 +40,7 @@ class Header extends React.Component {
                 to="/blog"
                 partiallyActive={true}
               >
-                Blog
+                ブログ
               </Link>
               <Link
                 className={`nav-item nav-link ${styles.item}`}
@@ -48,7 +48,7 @@ class Header extends React.Component {
                 to="/learning"
                 partiallyActive={true}
               >
-                Learning
+                学習
               </Link>
               <Link
                 className={`nav-item nav-link ${styles.item}`}
@@ -56,7 +56,7 @@ class Header extends React.Component {
                 to="/gallery"
                 partiallyActive={true}
               >
-                Gallery
+                ギャラリー
               </Link>
               <Link
                 className={`nav-item nav-link ${styles.item}`}
@@ -64,7 +64,7 @@ class Header extends React.Component {
                 to="/sponsors"
                 partiallyActive={true}
               >
-                Sponsors
+                スポンサー
               </Link>
               <Link
                 className={`nav-item nav-link ${styles.item}`}
@@ -72,7 +72,7 @@ class Header extends React.Component {
                 to="/support-us"
                 partiallyActive={true}
               >
-                Support us
+                サポート
               </Link>
               <a
                 className={`nav-item nav-link ${styles.item}`}
@@ -80,7 +80,7 @@ class Header extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Documentation
+                ドキュメント
               </a>
 
               {/* <a
@@ -108,7 +108,7 @@ class Header extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Use it now!
+                  今すぐ使う!
                 </a>
               )}
             </div>

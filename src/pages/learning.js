@@ -28,13 +28,13 @@ const LearningPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Learning" />
+      <SEO title="学習" />
 
       <div className="container">
         <div className="row main-header">
           <div className="col-12 col-sm-8">
             <div>
-              <h1 className="big">Learning</h1>
+              <h1 className="big">学習</h1>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const LearningPage = ({ data }) => {
                       <p className="small d-flex align-items-center m-0">
                         <FaRegClock></FaRegClock>{" "}
                         <span className="ml-2">
-                          {edge.node.frontmatter.reading_time} min.
+                          約{edge.node.frontmatter.reading_time}分
                         </span>
                       </p>
                     </div>

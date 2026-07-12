@@ -11,16 +11,16 @@ import SponsorsGrid from '../components/SponsorsGrid'
 
 const SponsorsPage = () => (
   <Layout>
-    <SEO title="Sponsors" />
+    <SEO title="スポンサー" />
 
     <div className="container">
       <div className="row main-header">
         <div className="col-12 col-sm-8">
           <div>
-            <h1 className="big">Sponsors</h1>
+            <h1 className="big">スポンサー</h1>
             <h2 className="light">
               <p>
-              RAWGraphs is an open-source project that relies on donations and the generous support of organizations and companies. Through the <a href="https://www.indiegogo.com/projects/rawgraphs-2-0-a-web-app-for-data-visualization/x/20662697#/">Indiegogo Campaign</a> we launched in the fall of 2019, we have received more than 350 donations from 40 countries. Keep on supporting us!
+              RAWGraphsは、寄付と、組織や企業の寛大な支援に支えられたオープンソースプロジェクトです。2019年秋に立ち上げた <a href="https://www.indiegogo.com/projects/rawgraphs-2-0-a-web-app-for-data-visualization/x/20662697#/">Indiegogoキャンペーン</a> を通じて、40か国から350件を超える寄付をいただきました。これからもぜひご支援をお願いします！
               </p>
             </h2>
           </div>
@@ -34,15 +34,15 @@ const SponsorsPage = () => (
     </div>
     <div className="container-fluid grey-bg">
       <div className="container">
-        <h1 className="text-center">Contributors (ordered by contribution amount and date)</h1>
+        <h1 className="text-center">コントリビューター（寄付額と日付順）</h1>
         <p style={{textTransform: 'capitalize'}}>
           { contributors.join(", ").toLowerCase()}.
         </p>
       </div>
     </div>
     <AskInfo
-      question="Do you want to sponsor or support the project?"
-      button="Contact us"
+      question="プロジェクトのスポンサーになる、または支援したいですか？"
+      button="お問い合わせ"
       link="mailto:hello@rawgraphs.io"
     ></AskInfo>
   </Layout>

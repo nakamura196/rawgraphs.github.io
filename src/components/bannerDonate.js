@@ -11,9 +11,10 @@ const bannerDonate = () => (
               💸
             </span>
             <span>
-              We are <span className={styles.bg}>developing</span> a new version
-              of RAWGraphs, <span className={styles.bg}>continue</span> to
-              support us.
+              RAWGraphsの新しいバージョンを
+              <span className={styles.bg}>開発</span>しています。
+              <span className={styles.bg}>引き続き</span>
+              応援をお願いします。
             </span>
             <span role="img" className={`ml-3 ${styles.blink}`}>
               💸
@@ -25,7 +26,7 @@ const bannerDonate = () => (
               role="button"
               className={`btn btn-default btn-lg btn-block ${styles.btnIndie}`}
             >
-              Donate!
+              寄付する！
             </a>
           </div>
         </div>

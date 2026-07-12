@@ -7,15 +7,15 @@ import styles from "./sponsorship.module.scss"
 
 const SponsorshipPage = () => (
   <Layout>
-    <SEO title="Sponsorship" />
+    <SEO title="スポンサーシップ" />
 
     <div className="container">
       <div className="row main-header">
         <div className="col-12 col-sm-8">
           <div>
-            <h1 className="big">Sponsorship</h1>
+            <h1 className="big">スポンサーシップ</h1>
             <h2 className="light">
-              <p>Everything you need to know about the <a href="https://igg.me/at/rawgraphs2">Indiegogo</a> sponsorship.</p>
+              <p><a href="https://igg.me/at/rawgraphs2">Indiegogo</a> のスポンサーシップについて知っておくべきことのすべて。</p>
             </h2>
           </div>
         </div>
@@ -25,18 +25,18 @@ const SponsorshipPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h2>Do you have a code of conduct for sponsorships?</h2>
+            <h2>スポンサーシップに関する行動規範はありますか？</h2>
             <p>
-One goal of the RawGraphs team is to be inclusive to the largest number of people, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+RAWGraphsチームの目標のひとつは、できるだけ多様で幅広い背景を持つ、最大限多くの人々を受け入れることです。そのため私たちは、性別、性的指向、能力、民族、社会経済的地位、宗教（またはそれを持たないこと）にかかわらず、すべての人にとって親しみやすく、安全で、温かく迎え入れる環境を提供することに尽力しています。
             </p>
 			<p>
-			Saying so:
+			したがって、次のとおりです。
 			</p>
 			<ul>
-			<li>We expect all sponsors to abide by these guidelines.</li>
-<li>We don't accept donations from sponsors whose financial background or aims run counter to RAWGraphs’ team guidelines and reputation.</li>
-<li>Sponsors shall conform to all laws and regulations relating to their profession or business and shall not engage in any conduct involving fraud, deceit, bribery, misrepresentation or dishonesty in their professional or business activity.</li>
-<li>We reserve the right to reject and refund any donation from sponsors who are found to be in violation of our policies/guidelines.</li>
+			<li>すべてのスポンサーがこれらのガイドラインを遵守することを期待します。</li>
+<li>財政的背景や目的がRAWGraphsチームのガイドラインや評判に反するスポンサーからの寄付は受け付けません。</li>
+<li>スポンサーは、その職業や事業に関するすべての法律および規制を遵守し、職業上または事業上の活動において、詐欺、欺瞞、贈収賄、虚偽表示、不正行為を伴ういかなる行為も行わないものとします。</li>
+<li>私たちのポリシー・ガイドラインに違反していることが判明したスポンサーからの寄付を、拒否し返金する権利を留保します。</li>
 
 			</ul>
           </div>
@@ -44,8 +44,8 @@ One goal of the RawGraphs team is to be inclusive to the largest number of peopl
       </div>
     </div>
     <AskInfo
-      question="Do you want to sponsor or support the project?"
-      button="contact us"
+      question="プロジェクトのスポンサーになる、または支援したいですか？"
+      button="お問い合わせ"
       link="mailto:hello@rawgraphs.io"
     ></AskInfo>
   </Layout>

@@ -21,16 +21,16 @@ const Footer = () => (
                 className={`nav navbar-nav navbar-right ${styles.nav}`}
               >
                 <li className="menu-item">
-                  <Link to="/">Home</Link>
+                  <Link to="/">ホーム</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/about">About</Link>
+                  <Link to="/about">概要</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/learning">Learning</Link>
+                  <Link to="/learning">学習</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/blog">ブログ</Link>
                 </li>
                 <li className="menu-item">
                   <a
@@ -38,11 +38,11 @@ const Footer = () => (
                     href="https://github.com/rawgraphs/rawgraphs-app"
                     rel="noopener noreferrer"
                   >
-                    Documentation
+                    ドキュメント
                   </a>
                 </li>
                 <li className="menu-item">
-                  <Link to="/gallery">Gallery</Link>
+                  <Link to="/gallery">ギャラリー</Link>
                 </li>
                 <li className="menu-item">
                   <a
@@ -50,17 +50,17 @@ const Footer = () => (
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Submit your work
+                    作品を投稿する
                   </a>
                 </li>
                 <li className="menu-item">
                   <a
-                    title="Enjoy the repo"
+                    title="リポジトリを見る"
                     target="_blank"
                     href="https://github.com/densitydesign/raw/"
                     rel="noopener noreferrer"
                   >
-                    Enjoy the repo
+                    リポジトリを見る
                   </a>
                 </li>
                 {/*                <li className="menu-item">
@@ -75,21 +75,21 @@ const Footer = () => (
                 </li>*/}
                 <li className="menu-item">
                   <a
-                    title="RAWGraphs Newsletter"
+                    title="RAWGraphs ニュースレター"
                     href="http://eepurl.com/c9eFWH"
                   >
-                    Subscribe to our newsletter
+                    ニュースレターを購読する
                   </a>
                 </li>
                 <li className="menu-item">
-                  <Link to="/privacy">Privacy</Link>
+                  <Link to="/privacy">プライバシー</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="col-sm-2 offset-sm-0 col-6">
-          <h4>A project by</h4>
+          <h4>プロジェクト運営</h4>
           <a
             href="http://densitydesign.org"
             target="_blank"
@@ -120,17 +120,17 @@ const Footer = () => (
         <div
           className={`${styles.contactUs} col-sm-3 offset-sm-1 col-12 mt-3 mt-md-0`}
         >
-          <h4>Contact Us:</h4>
-          <p className="small">Questions? Do you want to support the project?</p>
+          <h4>お問い合わせ:</h4>
+          <p className="small">ご質問はありますか?プロジェクトを応援しませんか?</p>
           <a href="mailto:hello@rawgraphs.io">
             <button className="btn btn-default" type="submit">
-              Drop us a message
+              メッセージを送る
             </button>
           </a>
         </div>
 
         <div className="col-sm-2 offset-sm-1 col-6">
-        <h4>Follow us:</h4>
+        <h4>フォローする:</h4>
           <div className={styles.socialIcons}>
             <a
               target="_blank"

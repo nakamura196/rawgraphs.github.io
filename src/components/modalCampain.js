@@ -32,18 +32,18 @@ class ModalCampain extends React.Component {
           }}
         >
           <h1 className="modal-title mb-3">
-            Hello!{" "}
+            こんにちは！{" "}
             <span role="img" aria-label="hello">
               👋 👋 👋
             </span>
             <br />
-            It's time to support RAWGraphs!
+            RAWGraphsを応援するときが来ました！
           </h1>
           <p className="pb-2">
-            We are planning to work on a brand new version of RAWGraphs. We need your help!
+            RAWGraphsの全く新しいバージョンの開発を計画しています。皆さんの力が必要です！
           </p>
           <p>
-          <button className={`btn btn-default btn-larger ${styles.btnIndie}`}><a href="https://igg.me/at/rawgraphs2">Donate on Indiegogo!</a></button>
+          <button className={`btn btn-default btn-larger ${styles.btnIndie}`}><a href="https://igg.me/at/rawgraphs2">Indiegogoで寄付する！</a></button>
           </p>
         </ModalBody>
       </Modal>

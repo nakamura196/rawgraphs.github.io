@@ -11,14 +11,14 @@ const GalleryPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Gallery" />
+      <SEO title="ギャラリー" />
       <div className="container">
         <div className="row main-header">
           <div className="col-12 col-sm-8">
             <div>
-              <h1 className="big">Gallery</h1>
+              <h1 className="big">ギャラリー</h1>
               <h2 className="light">
-                <p>A place to showcase the best examples of RAWGraphs in use</p>
+                <p>RAWGraphsを活用した優れた作例を紹介する場です</p>
               </h2>
             </div>
           </div>
@@ -26,8 +26,8 @@ const GalleryPage = ({ data }) => {
       </div>
 
       <AskInfo
-        question="Have you done something interesting with RAWGraphs?"
-        button="submit!"
+        question="RAWGraphsで面白い作品を作りましたか？"
+        button="投稿する！"
         link="https://forms.gle/WnqxUfwnE3nVt58RA"
         bgLight
         btGreen
@@ -68,8 +68,8 @@ const GalleryPage = ({ data }) => {
         </div>
       </div>
       <AskInfo
-        question="Do you want to contribute to the project? Any general question or feedback?"
-        button="contact us"
+        question="プロジェクトに貢献したいですか？ ご質問やご意見はありますか？"
+        button="お問い合わせ"
         link="mailto:hello@rawgraphs.io"
       ></AskInfo>
     </Layout>

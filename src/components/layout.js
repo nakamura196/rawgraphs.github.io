@@ -26,7 +26,7 @@ const Layout = ({ children, headerBg, useIt }) => {
       <Footer siteTitle={data.site.siteMetadata.title} />
       <CookieConsent
         location="bottom"
-        buttonText="Got it!"
+        buttonText="了解しました!"
         style={{ background: "#f5f5f5", color: "#646467" }}
         buttonStyle={{
           background: "#646467",
@@ -38,14 +38,14 @@ const Layout = ({ children, headerBg, useIt }) => {
         buttonClasses="btn btn-default btn-grey"
         acceptOnScroll={true}
       >
-        This website uses Google Analytics to anonymously collect browsing data.{" "}
+当ウェブサイトでは、Google Analytics を使用して匿名で閲覧データを収集しています。{" "}
         <a
           href="/privacy"
           target="_blank"
           rel="noopener noreferrer"
           className="ml-2 text-body border-bottom border-dark"
         >
-          Learn More
+          詳しく見る
         </a>
       </CookieConsent>
     </React.Fragment>
