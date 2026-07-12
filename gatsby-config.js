@@ -1,11 +1,15 @@
 module.exports = {
+  // Served as a GitHub Pages project site at
+  // https://<user>.github.io/rawgraphs.github.io/ — build with
+  // `gatsby build --prefix-paths`.
+  pathPrefix: "/rawgraphs.github.io",
   siteMetadata: {
     title: "RAWGraphs",
     description:
-      "The missing link between spreadsheets and data visualization.",
+      "スプレッドシートとデータビジュアライゼーションをつなぐツール。",
     author: "@rawgraphs",
 
-    learningCategories: ["Charts", "Rawgraphs 1.0"],
+    learningCategories: ["チャート", "RAWGraphs 1.0"],
   },
 
   plugins: [
