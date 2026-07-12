@@ -154,7 +154,7 @@ const HomePage = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://app.rawgraphs.io"
+            href="https://nakamura196.github.io/rawgraphs-app/"
           >
             <button
               className="btn btn-default btn-green btn-larger"

@@ -104,7 +104,7 @@ class Header extends React.Component {
                 <a
                   id={styles.use}
                   className={`nav-item nav-link ${styles.item}`}
-                  href="https://app.rawgraphs.io/"
+                  href="https://nakamura196.github.io/rawgraphs-app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
