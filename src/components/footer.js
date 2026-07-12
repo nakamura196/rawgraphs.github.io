@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { FaTwitterSquare, FaGithubSquare } from "react-icons/fa"
 import logoCalibro from "../images/logo-calibro-white@2x.png"
-import logoDD from "../images/logo-dd-white@2x.png"
+import logoDD from "../images/logo-DD-white@2x.png"
 import logoInmagik from "../images/logo-Inmagik-white@2x.png"
 import styles from "./footer.module.scss"
 

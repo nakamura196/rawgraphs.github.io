@@ -12,10 +12,10 @@ import {
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeStep from "../components/homeStep"
-import DiscoverMoreWidget from "../components/DiscoverMoreWidget"
-import AskInfo from "../components/AskInfo"
-import SponsorsGrid from '../components/SponsorsGrid'
-import ModalCampain from "../components/ModalCampain"
+import DiscoverMoreWidget from "../components/discoverMoreWidget"
+import AskInfo from "../components/askInfo"
+import SponsorsGrid from '../components/sponsorsGrid'
+import ModalCampain from "../components/modalCampain"
 import logo from "../images/logo@2x.png"
 import bg1 from "../images/cover-bg-1@2x.png"
 import bg2 from "../images/cover-bg-2@2x.png"

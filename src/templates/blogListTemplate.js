@@ -5,7 +5,7 @@ import { Pagination, PaginationItem, PaginationLink } from "reactstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BlogBlock from "../components/blog-block"
-import AskInfo from "../components/AskInfo"
+import AskInfo from "../components/askInfo"
 
 const BlogPage = ({ data, pageContext }) => {
   const { numPages, currentPage } = pageContext

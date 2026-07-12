@@ -12,8 +12,8 @@ import YoutubeEmbed from "../components/youtubeEmbed"
 import GuideCitation from "../components/guideCitation"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AskInfo from "../components/AskInfo"
-import DiscoverMoreWidgetPost from "../components/DiscoverMoreWidgetPost"
+import AskInfo from "../components/askInfo"
+import DiscoverMoreWidgetPost from "../components/discoverMoreWidgetPost"
 import styles from "./learningTemplate.module.scss"
 
 export default function Template({ data, location }) {

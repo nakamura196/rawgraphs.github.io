@@ -1,6 +1,6 @@
 import React from "react"
 import { FaFilePdf, FaGithubSquare, FaTwitterSquare } from "react-icons/fa"
-import AskInfo from "../components/AskInfo"
+import AskInfo from "../components/askInfo"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "./support-us.module.scss"

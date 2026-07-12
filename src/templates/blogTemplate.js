@@ -8,7 +8,7 @@ import {
 } from "react-share"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import DiscoverMoreWidgetPost from "../components/DiscoverMoreWidgetPost"
+import DiscoverMoreWidgetPost from "../components/discoverMoreWidgetPost"
 import styles from "./blogTemplate.module.scss"
 
 export default function Template({ data, location }) {

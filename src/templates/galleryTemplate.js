@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa"
-import AskInfo from "../components/AskInfo"
+import AskInfo from "../components/askInfo"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "./galleryTemplate.module.scss"

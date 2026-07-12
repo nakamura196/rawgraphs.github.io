@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AskInfo from "../components/AskInfo"
+import AskInfo from "../components/askInfo"
 import styles from "./gallery.module.scss"
 
 const GalleryPage = ({ data }) => {
